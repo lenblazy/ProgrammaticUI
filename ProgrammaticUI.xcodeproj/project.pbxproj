@@ -10,63 +10,22 @@
 		B814D11F2CABCB0700C4F231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D11E2CABCB0700C4F231 /* AppDelegate.swift */; };
 		B814D1212CABCB0700C4F231 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D1202CABCB0700C4F231 /* SceneDelegate.swift */; };
 		B814D1232CABCB0700C4F231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D1222CABCB0700C4F231 /* ViewController.swift */; };
-		B814D1262CABCB0700C4F231 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B814D1252CABCB0700C4F231 /* Base */; };
 		B814D1282CABCB0900C4F231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B814D1272CABCB0900C4F231 /* Assets.xcassets */; };
 		B814D12B2CABCB0900C4F231 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B814D12A2CABCB0900C4F231 /* Base */; };
-		B814D1362CABCB0900C4F231 /* ProgrammaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D1352CABCB0900C4F231 /* ProgrammaticUITests.swift */; };
-		B814D1402CABCB0900C4F231 /* ProgrammaticUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D13F2CABCB0900C4F231 /* ProgrammaticUIUITests.swift */; };
-		B814D1422CABCB0900C4F231 /* ProgrammaticUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B814D1412CABCB0900C4F231 /* ProgrammaticUIUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B814D1322CABCB0900C4F231 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B814D1132CABCB0700C4F231 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B814D11A2CABCB0700C4F231;
-			remoteInfo = ProgrammaticUI;
-		};
-		B814D13C2CABCB0900C4F231 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B814D1132CABCB0700C4F231 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B814D11A2CABCB0700C4F231;
-			remoteInfo = ProgrammaticUI;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B814D11B2CABCB0700C4F231 /* ProgrammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B814D11E2CABCB0700C4F231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B814D1202CABCB0700C4F231 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B814D1222CABCB0700C4F231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B814D1252CABCB0700C4F231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B814D1272CABCB0900C4F231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B814D12A2CABCB0900C4F231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B814D12C2CABCB0900C4F231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B814D1312CABCB0900C4F231 /* ProgrammaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B814D1352CABCB0900C4F231 /* ProgrammaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticUITests.swift; sourceTree = "<group>"; };
-		B814D13B2CABCB0900C4F231 /* ProgrammaticUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B814D13F2CABCB0900C4F231 /* ProgrammaticUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticUIUITests.swift; sourceTree = "<group>"; };
-		B814D1412CABCB0900C4F231 /* ProgrammaticUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B814D1182CABCB0700C4F231 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B814D12E2CABCB0900C4F231 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B814D1382CABCB0900C4F231 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				B814D11D2CABCB0700C4F231 /* ProgrammaticUI */,
-				B814D1342CABCB0900C4F231 /* ProgrammaticUITests */,
-				B814D13E2CABCB0900C4F231 /* ProgrammaticUIUITests */,
 				B814D11C2CABCB0700C4F231 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				B814D11B2CABCB0700C4F231 /* ProgrammaticUI.app */,
-				B814D1312CABCB0900C4F231 /* ProgrammaticUITests.xctest */,
-				B814D13B2CABCB0900C4F231 /* ProgrammaticUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,29 +57,11 @@
 				B814D11E2CABCB0700C4F231 /* AppDelegate.swift */,
 				B814D1202CABCB0700C4F231 /* SceneDelegate.swift */,
 				B814D1222CABCB0700C4F231 /* ViewController.swift */,
-				B814D1242CABCB0700C4F231 /* Main.storyboard */,
 				B814D1272CABCB0900C4F231 /* Assets.xcassets */,
 				B814D1292CABCB0900C4F231 /* LaunchScreen.storyboard */,
 				B814D12C2CABCB0900C4F231 /* Info.plist */,
 			);
 			path = ProgrammaticUI;
-			sourceTree = "<group>";
-		};
-		B814D1342CABCB0900C4F231 /* ProgrammaticUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B814D1352CABCB0900C4F231 /* ProgrammaticUITests.swift */,
-			);
-			path = ProgrammaticUITests;
-			sourceTree = "<group>";
-		};
-		B814D13E2CABCB0900C4F231 /* ProgrammaticUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B814D13F2CABCB0900C4F231 /* ProgrammaticUIUITests.swift */,
-				B814D1412CABCB0900C4F231 /* ProgrammaticUIUITestsLaunchTests.swift */,
-			);
-			path = ProgrammaticUIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +84,6 @@
 			productReference = B814D11B2CABCB0700C4F231 /* ProgrammaticUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B814D1302CABCB0900C4F231 /* ProgrammaticUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B814D1482CABCB0900C4F231 /* Build configuration list for PBXNativeTarget "ProgrammaticUITests" */;
-			buildPhases = (
-				B814D12D2CABCB0900C4F231 /* Sources */,
-				B814D12E2CABCB0900C4F231 /* Frameworks */,
-				B814D12F2CABCB0900C4F231 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B814D1332CABCB0900C4F231 /* PBXTargetDependency */,
-			);
-			name = ProgrammaticUITests;
-			productName = ProgrammaticUITests;
-			productReference = B814D1312CABCB0900C4F231 /* ProgrammaticUITests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B814D13A2CABCB0900C4F231 /* ProgrammaticUIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B814D14B2CABCB0900C4F231 /* Build configuration list for PBXNativeTarget "ProgrammaticUIUITests" */;
-			buildPhases = (
-				B814D1372CABCB0900C4F231 /* Sources */,
-				B814D1382CABCB0900C4F231 /* Frameworks */,
-				B814D1392CABCB0900C4F231 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B814D13D2CABCB0900C4F231 /* PBXTargetDependency */,
-			);
-			name = ProgrammaticUIUITests;
-			productName = ProgrammaticUIUITests;
-			productReference = B814D13B2CABCB0900C4F231 /* ProgrammaticUIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +96,6 @@
 				TargetAttributes = {
 					B814D11A2CABCB0700C4F231 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					B814D1302CABCB0900C4F231 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = B814D11A2CABCB0700C4F231;
-					};
-					B814D13A2CABCB0900C4F231 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = B814D11A2CABCB0700C4F231;
 					};
 				};
 			};
@@ -220,8 +113,6 @@
 			projectRoot = "";
 			targets = (
 				B814D11A2CABCB0700C4F231 /* ProgrammaticUI */,
-				B814D1302CABCB0900C4F231 /* ProgrammaticUITests */,
-				B814D13A2CABCB0900C4F231 /* ProgrammaticUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +124,6 @@
 			files = (
 				B814D1282CABCB0900C4F231 /* Assets.xcassets in Resources */,
 				B814D12B2CABCB0900C4F231 /* Base in Resources */,
-				B814D1262CABCB0700C4F231 /* Base in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B814D12F2CABCB0900C4F231 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B814D1392CABCB0900C4F231 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,47 +140,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B814D12D2CABCB0900C4F231 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B814D1362CABCB0900C4F231 /* ProgrammaticUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B814D1372CABCB0900C4F231 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B814D1422CABCB0900C4F231 /* ProgrammaticUIUITestsLaunchTests.swift in Sources */,
-				B814D1402CABCB0900C4F231 /* ProgrammaticUIUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B814D1332CABCB0900C4F231 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B814D11A2CABCB0700C4F231 /* ProgrammaticUI */;
-			targetProxy = B814D1322CABCB0900C4F231 /* PBXContainerItemProxy */;
-		};
-		B814D13D2CABCB0900C4F231 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B814D11A2CABCB0700C4F231 /* ProgrammaticUI */;
-			targetProxy = B814D13C2CABCB0900C4F231 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		B814D1242CABCB0700C4F231 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B814D1252CABCB0700C4F231 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B814D1292CABCB0900C4F231 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,9 +285,9 @@
 				INFOPLIST_FILE = ProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,9 +313,9 @@
 				INFOPLIST_FILE = ProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,82 +326,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B814D1492CABCB0900C4F231 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7SX6NBSFY3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.elbeetech.ProgrammaticUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammaticUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProgrammaticUI";
-			};
-			name = Debug;
-		};
-		B814D14A2CABCB0900C4F231 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7SX6NBSFY3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.elbeetech.ProgrammaticUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammaticUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProgrammaticUI";
-			};
-			name = Release;
-		};
-		B814D14C2CABCB0900C4F231 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7SX6NBSFY3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.elbeetech.ProgrammaticUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProgrammaticUI;
-			};
-			name = Debug;
-		};
-		B814D14D2CABCB0900C4F231 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7SX6NBSFY3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = io.elbeetech.ProgrammaticUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ProgrammaticUI;
 			};
 			name = Release;
 		};
@@ -584,24 +346,6 @@
 			buildConfigurations = (
 				B814D1462CABCB0900C4F231 /* Debug */,
 				B814D1472CABCB0900C4F231 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B814D1482CABCB0900C4F231 /* Build configuration list for PBXNativeTarget "ProgrammaticUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B814D1492CABCB0900C4F231 /* Debug */,
-				B814D14A2CABCB0900C4F231 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B814D14B2CABCB0900C4F231 /* Build configuration list for PBXNativeTarget "ProgrammaticUIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B814D14C2CABCB0900C4F231 /* Debug */,
-				B814D14D2CABCB0900C4F231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
