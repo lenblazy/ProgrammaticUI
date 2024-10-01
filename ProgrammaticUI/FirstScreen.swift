@@ -8,13 +8,30 @@
 import UIKit
 
 class FirstScreen: UIViewController {
+    
+    let nextButton = UIButton()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        debugPrint("hahahahaha")
-        view.backgroundColor = .red
+        view.backgroundColor = .systemBlue
+        setupButton()
     }
 
+    private func setupButton() {
+        view.addSubview(nextButton)
+        
+        nextButton.backgroundColor = .white
+        nextButton.setTitle("Next", for: .normal)
+        nextButton.setTitleColor(.black, for: .normal)
+        nextButton.translatesAutoresizingMaskIntoConstraints = false
+        
+        NSLayoutConstraint.activate([
+            nextButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            nextButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            nextButton.heightAnchor.constraint(equalToConstant: 50),
+            nextButton.widthAnchor.constraint(equalToConstant: 100),
+        ])
+    }
 
 }
 
