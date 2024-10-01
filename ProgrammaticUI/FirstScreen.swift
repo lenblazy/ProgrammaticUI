@@ -13,15 +13,18 @@ class FirstScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBlue
+        view.backgroundColor                                    = .systemBackground
+        title                                                   = "First Screen"
+        navigationController?.navigationBar.prefersLargeTitles  = true
         setupButton()
     }
 
     private func setupButton() {
         view.addSubview(nextButton)
         
-        nextButton.backgroundColor = .white
+        nextButton.backgroundColor = .systemBlue
         nextButton.setTitle("Next", for: .normal)
+        nextButton.addTarget(self, action: #selector(tapButton), for: .touchUpInside)
         nextButton.setTitleColor(.black, for: .normal)
         nextButton.translatesAutoresizingMaskIntoConstraints = false
         
@@ -31,6 +34,12 @@ class FirstScreen: UIViewController {
             nextButton.heightAnchor.constraint(equalToConstant: 50),
             nextButton.widthAnchor.constraint(equalToConstant: 100),
         ])
+    }
+    
+    @objc private func tapButton() {
+        let secondScreen = SecondScreen()
+        secondScreen.title  = "Second Screen"
+        navigationController?.pushViewController(secondScreen, animated: true)
     }
 
 }
